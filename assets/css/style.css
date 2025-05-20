@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17,7,35);
+    color: #fff;
+}
+
+.momondo{
+    align-items: center;
+    display: flex;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mo{color: rgb(61,163,221);}
+.mon{color: rgb(221,61,181);}
+.do{color: rgb(218,120,56);}
+
+.list, .list1{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+    color: #fff; 
+}
+
+.list a, .list1 a{
+    color: #fff;
+}
+
+.list a:hover, .list1 a:hover{
+    color: rgb(201, 62, 1591);
+}
+
+.find{
+    position: relative;
+    text-align: center;
+    color: #000; 
+}
+
+.thought1{
+    position: absolute;
+    top: 90px;
+    left: 146px;
+    font-size: 50px;
+    font-family: Calibri;
+    font-weight:lighter;
+}
+
+.thought2{
+    position: absolute;
+    top: 210px;
+    left: 146px;
+    font-size: 19px;
+    font-family: Calibri;
+    font-weight:bold;
+}
+
+.search{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 15px;
+    left:106px;
+    padding: 7px; 
+    background-color: #281457;
+}
+
+.search_mode{
+    display: flex;
+    gap:20px;
+}
+
+.travel{
+    color: #fff;
+    padding:10px;
+    align-items: center;
+    text-align: center;
+}
+
+.travel:hover{
+    padding: 5px;
+    background-color: #c72525;
+}
+
+.search_item{
+    border-radius: 50%;
+    background-color: #ff0000;
+    border: #ff0000;
+    height: 75px;
+    width: 75px;
+}
+
+input{
+    padding:10px;
+    margin-left: 10px;
+}
+
+i{
+    color: #fff;
+}
+
+.activity{
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.fun_h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fun{
+    gap: 20px;
+    display: flex;
+    margin:  auto;
+    width: fit-content;
+}
+
+
+.item{
+    color: #fff;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+}
+
+
+
+.subscribe{
+    position: absolute;
+    color: #fff; 
+}
+
