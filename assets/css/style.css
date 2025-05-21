@@ -251,28 +251,38 @@ i{
 }
 
 .section6{
-    background-color: #fff;
-    padding:30px 20px;
+    padding:10px 10px;
     text-align: center;
 }
 
 .blog{
     display:flex;
-    justify-content: center;
-    gap:20px;
-    margin-top:20px;
 }
 
 .blog_content{
-    background-color: #eee;
+    background-color: rgb(238, 238, 238);
     padding:15px;
-    width:250px;
-    border-radius: 8px;
-    text-align: center;
+    margin-top: 20px;
 }
 
-.blog_content img{
-    width:100%;
+.blog img{
+    padding:15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.section7{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
     height: auto;
-    border-radius: 4px;
+    padding: 50px;
+    display:flex;
+    justify-content: center;
+    gap:200px;
+}
+
+.part1 ul li, .part2 ul li, .part3 ul li{
+    list-style: none;
 }
